@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
-import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
 
@@ -25,7 +24,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} bg-[#000016] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
         <div className="max-w-[1600px] mx-auto">
           <Navbar />
           {children}
