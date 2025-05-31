@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} bg-[#000016] overflow-y-scroll overflow-x-hidden`}
       >
-        <div className="max-w-[1600px] mx-auto">
+        <div className="lg:max-w-[1600px] lg:mx-auto">
           <Navbar />
           {children}
           <Footer />
